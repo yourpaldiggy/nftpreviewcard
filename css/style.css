@@ -1,0 +1,100 @@
+
+body{
+    display: block;
+    background: hsl(217, 54%, 11%);
+}
+
+img {
+    display: block;
+    margin: 0, auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.ethereum-text {
+    display: block;
+    
+}
+
+
+.card{
+
+    background: hsl(216, 50%, 16%);
+    margin: 20% auto;
+    border-radius: 25px;
+    max-width: 300px;
+    margin: 0, 0, 46px;
+    border: solid, 1px, rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    
+    
+}
+
+h1{
+    font-family: Outfit, "sans-serif";
+    font-weight: 300, 400, 600;
+    color: hsl(0, 0%, 100%);
+}
+
+h2{
+    font-family: Outfit, "sans-serif";
+    font-weight: 300, 400, 600;
+    
+}
+
+#icon-e {
+    float:inline-start;
+    
+}
+
+#icon-c {
+    float:inline-end;
+    
+}
+
+#eth{
+    color: hsl(178, 100%, 50%);
+    font-size: 2vh;
+    display: inline-block;
+}
+
+#clock{
+    color: hsl(215, 51%, 70%);
+    font-size: 2vh;
+    display: inline-block;
+}
+
+h3{
+    font-family: Outfit, "sans-serif";
+    font-weight: 300, 400, 600;
+    
+}
+
+p{
+
+    font-size: 18px;
+    font-family: Outfit, "sans-serif";
+    font-weight: 300, 400, 600;
+    
+}
+
+#hr {
+    max-width: 75%;
+    color: hsl(215, 32%, 27%);
+}
+
+#avatar {
+    display:block;
+    max-width: 10%;
+    border: transparent 1px;
+    border: hsl(0, 0%, 100%) solid 1px;
+    border-radius: 50%;
+}
+
+footer { 
+    font-size: 11px; text-align: center; 
+}
+
+footer a { 
+    color: hsl(228, 45%, 44%); 
+}
