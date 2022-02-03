@@ -4,16 +4,35 @@ body{
     background: hsl(217, 54%, 11%);
 }
 
-img {
+.img {
     display: block;
     margin: 0, auto;
     max-width: 100%;
     border-radius: 10px;
 }
 
-.ethereum-text {
-    display: block;
+.img:hover{
+    color: hsl(178, 100%, 50%);
+   
+    mask-position: center;
+    cursor:pointer;
+}
+
+
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    max-width: 300px;
     
+}
+
+.creator {
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 
@@ -34,62 +53,59 @@ h1{
     font-family: Outfit, "sans-serif";
     font-weight: 300, 400, 600;
     color: hsl(0, 0%, 100%);
+    font-size: 25px;
 }
 
-h2{
-    font-family: Outfit, "sans-serif";
-    font-weight: 300, 400, 600;
-    
+h1:hover{
+    color: hsl(178, 100%, 50%);
+    cursor:pointer;
+
 }
 
-#icon-e {
-    float:inline-start;
-    
-}
 
-#icon-c {
-    float:inline-end;
-    
-}
-
-#eth{
+.eth{
     color: hsl(178, 100%, 50%);
     font-size: 2vh;
-    display: inline-block;
+    display: inline-flex;
 }
 
-#clock{
+.days{
     color: hsl(215, 51%, 70%);
     font-size: 2vh;
-    display: inline-block;
+    display: inline-flex;
 }
 
-h3{
-    font-family: Outfit, "sans-serif";
-    font-weight: 300, 400, 600;
-    
-}
 
 p{
 
     font-size: 18px;
     font-family: Outfit, "sans-serif";
     font-weight: 300, 400, 600;
-    
+    color: hsl(215, 51%, 70%)
 }
 
-#hr {
+.hr {
     max-width: 75%;
     color: hsl(215, 32%, 27%);
 }
 
-#avatar {
+.avatar {
     display:block;
     max-width: 10%;
     border: transparent 1px;
     border: hsl(0, 0%, 100%) solid 1px;
     border-radius: 50%;
 }
+
+span{
+    color: hsl(0, 0%, 100%)
+}
+
+span:hover{
+    color: hsl(178, 100%, 50%);
+    cursor:pointer;
+}
+
 
 footer { 
     font-size: 11px; text-align: center; 
